@@ -1,0 +1,223 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Cairo", sans-serif;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(58,11,102);
+    color: white;
+    width: 100%;
+    height: 50px;
+    padding:0 100px;
+    align-items: center;
+    border-top: red solid 2px;
+    position: fixed;
+    z-index: 10000000000;
+}
+nav a{
+    text-decoration: none;
+    color:white ;
+    padding-left: 10px;
+    width: 100%;
+    font-size: 18px;
+    transition: ease .5s;
+}
+nav a:hover{
+    font-size: 20px;
+    color: red;
+}
+/*                     main pagee               */
+.main{
+    background:linear-gradient(to right bottom,
+         rgba(0,0,0,0.7),
+         rgba(0,0,0,0.1)
+    
+        
+    ),   url(2.jpg);
+
+    background-attachment:fixed ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.main-contntes{
+    /* position: absolute;
+    top: 350px;
+    left: 100px; */
+    margin-left: 30px;
+    color: white;
+}
+.main span{
+    color: red;
+   text-transform: capitalize;
+}
+.main-contntes a{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(58,11,102);
+     padding: 10px;
+     border-radius: 10px;
+     display: inline-block;
+     margin-top: 10px !important;
+     transition: ease .5s;
+   
+}
+.main-contntes a:hover{
+   transform: scale(1.1);
+    background-color: red;
+}
+.service h2{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.service .container{
+
+    display: flex;
+    justify-content: space-evenly;
+ flex-wrap: wrap;
+
+}
+.service .container .card{
+    width: 30%;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 50px;
+    box-shadow: 3px 3px 6px 6px gray;
+}
+
+.service .container .card h3{
+    color: red;
+}
+ .icon i{
+    font-size: 50px;
+    color: rgb(58, 11, 102);
+ }
+
+ .portofoliClass{
+
+ }
+ .container1{
+    
+ }
+
+
+
+ /* Basic Styles for the Navbar */
+
+.navbar {
+    display: flex;
+  margin-top: 100px;
+    justify-content: flex-start ;
+    margin-left: 400px;
+    background-color:rgba(0, 0, 0,0.5);
+    padding: 10px;
+    width: 600px;
+
+  }
+  .nav-btn {
+    text-decoration: none;
+    padding: 10px 20px;
+ 
+    background-color: #090908;
+    opacity: .7;
+    color: white;
+    display: flex;
+    font-weight: bold;
+    margin-right: 5px;
+   
+   
+  }
+   
+  .nav-btn:hover {
+    background-color: #ffa733;
+  }
+  .Where-going{
+    width: 100%;
+    height: 50px
+  }
+  .check1{
+    display: block;
+    margin-right: 30px;
+    ma
+  }
+
+  .icon2{
+    margin-right: 5px;
+  }
+ 
+
+  /* Hide the form by default */
+  .form-container {
+    display: none;
+    background-color: #f9f9f9;
+    padding: 20px;
+    width: 700px;
+    margin-left: 400px;
+    margin-top: 0;
+    border: 1px solid #ccc;
+  }
+  .check-form{
+    display: flex;
+    margin-top: 0;
+    
+  }
+ 
+  
+  /* Show form when anchor is clicked */
+:target {
+    display: block;
+  }
+  
+  h2 {
+    color: #333;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;    
+  }
+  
+  label {
+    margin-top: 20px;
+    font-weight: bold;
+    display: flex;
+
+  }
+  
+  input, select {
+    margin-top: 20px;
+    display: flex;
+    width: 140px;
+    margin-top: 0;
+    border: 1px solid #ccc;
+  }
+  
+
+   
+
+.btn-search {
+    margin-top: 20px;
+    padding: 10px 10px;
+    background-color: #ff8c00;
+    color: white;
+    border: none;
+    width: 150px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #ffa733;
+   
+  }
+  /* ///////////////////////////////// */
+  
